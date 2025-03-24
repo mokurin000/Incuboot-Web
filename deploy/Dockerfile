@@ -9,7 +9,7 @@ RUN bun install cheerio pino pino-pretty
 
 COPY . .
 
-COPY supervisord.conf /app/supervisord.conf
+COPY deploy/supervisord.conf /app/supervisord.conf
 
 RUN addgroup --system nginx && \
     adduser --system --no-create-home --disabled-login --ingroup nginx nginx
@@ -17,7 +17,7 @@ RUN addgroup --system nginx && \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 
-COPY deploy/dist /usr/share/nginx/html/
+COPY dist /usr/share/nginx/html/
 
 COPY deploy/nginx.conf /etc/nginx/nginx.conf
 
