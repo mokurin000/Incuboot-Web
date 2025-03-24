@@ -35,7 +35,7 @@ const NotFound = () => {
         <div className={'flex items-center px-2 max-sm:flex-col mt-4 w-full gap-4 justify-between'}>
           <Button
             component={Link}
-            to="https://appflowy.com/download"
+            to="http://incuboot.ai/download"
             variant="contained"
             color="primary"
             className={'flex-1 py-3 px-4 max-sm:w-full rounded-[8px] max-md:text-base text-[20px] font-medium'}
@@ -54,12 +54,12 @@ const NotFound = () => {
           </Button>
         </div>
         {currentUser ? <div className={'max-w-[400px] mt-10 flex flex-col text-text-caption'}>
-           <span>
-             <Trans
-               i18nKey="requestAccess.tip"
-               components={{ link: <span className={'text-fill-default'}>{email}</span> }}
-             />
-           </span>
+          <span>
+            <Trans
+              i18nKey="requestAccess.tip"
+              components={{ link: <span className={'text-fill-default'}>{email}</span> }}
+            />
+          </span>
           <span>
             <Trans
               i18nKey="requestAccess.mightBe"
@@ -70,7 +70,7 @@ const NotFound = () => {
                 >{t('signIn.logIn')}</span>,
               }}
             />
-           </span>
+          </span>
         </div> : <div className={'max-w-[400px] mt-10 gap-1 flex flex-col text-text-caption'}>
           You are currently not logged in.
           <div>
@@ -79,8 +79,8 @@ const NotFound = () => {
               className={'underline mx-1 text-fill-default cursor-pointer'}
               onClick={() => openLoginModal?.()}
             >
-            here
-          </span>
+              here
+            </span>
             to login.
           </div>
         </div>}

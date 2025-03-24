@@ -2,7 +2,7 @@ import { Divider } from '@mui/material';
 import React from 'react';
 import { ReactComponent as AppFlowyLogo } from '@/assets/appflowy.svg';
 
-function AppFlowyPower ({
+function AppFlowyPower({
   divider,
   width,
 }: {
@@ -20,7 +20,7 @@ function AppFlowyPower ({
 
       <div
         onClick={() => {
-          window.open('https://appflowy.com', '_blank');
+          window.open('http://incuboot.ai', '_blank');
         }}
         style={{
           width,

@@ -9,7 +9,7 @@ import { fetch } from 'bun';
 const distDir = path.join(__dirname, 'dist');
 const indexPath = path.join(distDir, 'index.html');
 const baseURL = process.env.AF_BASE_URL as string;
-const defaultSite = 'https://appflowy.com';
+const defaultSite = 'http://incuboot.ai';
 
 const setOrUpdateMetaTag = ($: CheerioAPI, selector: string, attribute: string, content: string) => {
   if ($(selector).length === 0) {
@@ -270,9 +270,9 @@ const start = () => {
 
 start();
 
-export {};
+export { };
 
-function getIconBase64 (svgText: string, color: string) {
+function getIconBase64(svgText: string, color: string) {
   let newSvgText = svgText.replace(/fill="[^"]*"/g, ``);
 
   newSvgText = newSvgText.replace('<svg', `<svg fill="${argbToRgba(color)}"`);
@@ -282,7 +282,7 @@ function getIconBase64 (svgText: string, color: string) {
   return `data:image/svg+xml;base64,${base64String}`;
 }
 
-function argbToRgba (color: string): string {
+function argbToRgba(color: string): string {
   const hex = color.replace(/^#|0x/, '');
 
   const hasAlpha = hex.length === 8;

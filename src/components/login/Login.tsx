@@ -34,7 +34,7 @@ export function Login({ redirectTo }: { redirectTo: string }) {
       >
         <span>{t('web.signInAgreement')} </span>
         <a
-          href={'https://appflowy.com/terms'}
+          href={'http://incuboot.ai/terms'}
           target={'_blank'}
           className={'text-fill-default underline'}
         >
@@ -42,7 +42,7 @@ export function Login({ redirectTo }: { redirectTo: string }) {
         </a>{' '}
         {t('web.and')}{' '}
         <a
-          href={'https://appflowy.com/privacy'}
+          href={'http://incuboot.ai/privacy'}
           target={'_blank'}
           className={'text-fill-default underline'}
         >
@@ -53,7 +53,7 @@ export function Login({ redirectTo }: { redirectTo: string }) {
       <Divider className={'w-[300px] max-w-full border-line-divider'} />
       <div
         onClick={() => {
-          window.location.href = 'https://appflowy.com';
+          window.location.href = 'http://incuboot.ai';
         }}
         className={'text-text-title text-xs font-medium cursor-pointer opacity-60 hover:opacity-100 w-full gap-2 flex items-center justify-center'}
       >

@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { ReactComponent as SupportIcon } from '@/assets/message_support.svg';
 
-function MobileMore ({
+function MobileMore({
   onClose,
 }: {
   onClose: () => void;
@@ -23,7 +23,7 @@ function MobileMore ({
         label: t('template.label'),
         icon: <TemplateIcon />,
         onClick: () => {
-          window.open('https://appflowy.com/templates', '_blank');
+          window.open('http://incuboot.ai/templates', '_blank');
         },
       },
       {

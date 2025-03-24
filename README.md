@@ -10,7 +10,7 @@ Bring projects, wikis, and teams together with AI
 </p>
 <p align="center">
     <a href="http://appflowy.com"><b>Web</b></a> •
-    <a href="https://appflowy.com/download">Apps</a> •
+    <a href="http://incuboot.ai/download">Apps</a> •
     <a href="https://discord.gg/9Q2xaN37tV"><b>Discord</b></a> •
     <a href="https://twitter.com/appflowy"><b>Twitter</b></a> •
     <a href="https://www.reddit.com/r/appflowy/"><b>Reddit</b></a> •
@@ -48,10 +48,10 @@ Q1 2025:
 
 ## Installation
 ### Cloud: we host AppFlowy for you
-Sign up for a free account on <a href="https://appflowy.com">appflowy.com</a>—it's the fastest way to get started with AppFlowy without hassles
+Sign up for a free account on <a href="http://incuboot.ai">appflowy.com</a>—it's the fastest way to get started with AppFlowy without hassles
 
 ### Self-hosted: host AppFlowy on your own server
-Take charge of your data; no vendor lock-in. Follow our <a href="https://appflowy.com/docs/self-host-appflowy-overview">deployment guide</a> to get started.
+Take charge of your data; no vendor lock-in. Follow our <a href="http://incuboot.ai/docs/self-host-appflowy-overview">deployment guide</a> to get started.
 Join our <a href="https://discord.gg/FFmDE99bgA">Discord</a> server to get help!
 
 ## Built with 🛠️
@@ -85,7 +85,7 @@ pnpm run dev
 Open your browser to visit localhost:3000
 
 ## Deployment
-Once AppFlowy Cloud has been setup, you can follow the [deployment guide](https://appflowy.com/docs/self-host-appflowy-run-appflowy-web)
+Once AppFlowy Cloud has been setup, you can follow the [deployment guide](http://incuboot.ai/docs/self-host-appflowy-run-appflowy-web)
 to deploy AppFlowy Web.
 
 ## License
