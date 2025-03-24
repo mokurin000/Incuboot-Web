@@ -17,11 +17,11 @@ RUN addgroup --system nginx && \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 
-COPY dist /usr/share/nginx/html/
+COPY deploy/dist /usr/share/nginx/html/
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY deploy/nginx.conf /etc/nginx/nginx.conf
 
-COPY start.sh /app/start.sh
+COPY deploy/start.sh /app/start.sh
 
 RUN chmod +x /app/start.sh
 RUN chmod +x /app/supervisord.conf
