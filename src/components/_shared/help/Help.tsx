@@ -27,7 +27,7 @@ const popoverProps: Partial<PopoverProps> = {
   },
 };
 
-export default function Help () {
+export default function Help() {
   const ref = React.useRef<HTMLDivElement | null>(null);
   const [open, setOpen] = React.useState(false);
   const { t } = useTranslation();
@@ -72,7 +72,7 @@ export default function Help () {
             <Button
               component={'a'}
               target="_blank"
-              href={'https://www.appflowy.com/what-is-new'}
+              href={'http://incuboot.ai/what-is-new'}
               className={'justify-start'}
               color={'inherit'}
               startIcon={<WhatsNewIcon />}
@@ -81,7 +81,7 @@ export default function Help () {
             </Button>
             <Button
               component={'a'}
-              href={'https://discord.gg/9Q2xaN37tV'}
+              href={'https://discord.gg/n64k7QrG'}
               className={'justify-start'}
               target="_blank"
               color={'inherit'}

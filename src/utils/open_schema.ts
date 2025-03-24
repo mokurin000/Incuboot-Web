@@ -113,9 +113,9 @@ export function openOrDownload(schema?: string) {
 
   if (os === 'ios' || os === 'android') {
     const universalLink = 'http://incuboot.ai/download';
-    const intentUrl = `intent://appflowy.com/download#Intent;` +
+    const intentUrl = `intent://incuboot.ai/download#Intent;` +
       'scheme=https;' +
-      'package=io.appflowy.app;' +
+      'package=ai.incuboot.app;' +
       `S.browser_fallback_url=${encodeURIComponent(androidDownloadLink)};` +
       'end';
 
