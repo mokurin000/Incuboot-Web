@@ -81,7 +81,7 @@ export default function Help() {
             </Button>
             <Button
               component={'a'}
-              href={'https://discord.gg/n64k7QrG'}
+              href={'https://discord.gg/sWuy3SD6q7'}
               className={'justify-start'}
               target="_blank"
               color={'inherit'}
