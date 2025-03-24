@@ -1,7 +1,7 @@
 <h1 align="center" style="border-bottom: none">AppFlowy Web<br>
 ⭐️ The Open Source Notion Alternative ⭐️
 </h1>
-<p align="center"> Use AppFlowy right in <a href="https://www.appflowy.com">your browser</a><br>
+<p align="center"> Use IncuBoot right in <a href="http://cloud.incuboot.ai">your browser</a><br>
 </p>
 
 
